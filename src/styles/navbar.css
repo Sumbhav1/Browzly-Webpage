@@ -1,0 +1,27 @@
+/* Default logo size */
+.logo {
+    height: 45px; /* Set a default height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Prevent distortion */
+  }
+  
+  /* Adjust the logo size when screen gets smaller */
+  @media (max-width: 992px) {  /* Tablets and smaller screens */
+    .logo {
+      height: 35px;
+    }
+  }
+  
+  @media (max-width: 768px) {  /* Mobile screens */
+    .logo {
+      height: 25px;
+    }
+  }
+  
+  @media (max-width: 480px) {  /* Extra small devices */
+    .logo {
+      height: 15px;
+    }
+  }
+  
+  
