@@ -1,6 +1,7 @@
 .discoverSection {
     padding: 50px 0;
     background-color: #f9f9f9;
+    margin-top: 50px;
   }
   
   .headline {
@@ -87,7 +88,7 @@
   
   .cta-button {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 12px 24px;
     font-size: 16px;
     color: white;

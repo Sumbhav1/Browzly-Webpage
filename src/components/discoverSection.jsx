@@ -31,15 +31,15 @@ const DiscoverSection = () => {
               <div className="features">
                 <FeatureCard
                   icon={<GiArtificialIntelligence />}
-                  text="Improve phonics outcomes with AI-powered phonics practice."
+                  text="AI-powered & phonics scheme-agnostic"
                 />
                 <FeatureCard
                   icon={<GiProgression />}
-                  text="Track progress and support mastery within your structured synthetic phonics program."
+                  text="Science of Reading aligned"
                 />
                 <FeatureCard
                   icon={<BsFillPersonLinesFill />}
-                  text="Enhance teaching with best-in-class phonics teacher training CPD."
+                  text="Best-in-class phonics teacher training CPD"
                 />
               </div>
               <div className="get-in-touch">

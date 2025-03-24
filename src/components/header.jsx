@@ -4,7 +4,7 @@ import "../styles/navbar.css";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
       <div className="container-fluid d-flex justify-content-between align-items-center">
         
         {/* Left-aligned Logo */}

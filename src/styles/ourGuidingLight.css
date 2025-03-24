@@ -1,0 +1,83 @@
+.our-guiding-light {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    margin-top: -60px;
+}
+
+.our-guiding-light .headline {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.our-guiding-light .highlight {
+    color: #FFDE00;
+}
+
+.our-guiding-light .description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+/* Goals Card Styling */
+.goals-card {
+    max-width: 500px; /* Adjust width */
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto; /* Push to the right */
+    margin-top: 100px;
+  }
+  
+
+.goals-card .subheadline {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.goals-list {
+    padding-left: 0;
+}
+
+.goals-list li {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+/* Custom Bullet Point */
+.goals-list li::before {
+    content: "●";
+    color: #FFDE00;
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .our-guiding-light .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .goals-card {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .goals-list li {
+        font-size: 16px;
+    }
+}
+
