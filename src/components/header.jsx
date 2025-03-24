@@ -53,7 +53,7 @@ const Header = () => {
 
             {/* Talk to Us Button */}
             <li className="nav-item">
-              <button className="btn btn-warning rounded-3 px-3">Talk to us</button>
+              <button className="btn btn-warning rounded-5 px-3">Talk to us</button>
             </li>
           </ul>
         </div>
