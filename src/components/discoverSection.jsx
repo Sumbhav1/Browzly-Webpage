@@ -8,7 +8,7 @@ const DiscoverSection = () => {
   return (
     <section className="discoverSection">
       <div className="container">
-        <div className="row align-items-center"> 
+        <div className="row ">
           {/* Left Side - Content */}
           <div className="col-md-9">
             <div className="content">
@@ -43,10 +43,14 @@ const DiscoverSection = () => {
                 />
               </div>
               <div className="get-in-touch">
-  <h3>Get in touch today to see how Browzly can impact phonics outcomes in your school.</h3>
-  <a href="/contact" className="cta-button">Contact Us</a>
-</div>
-
+                <h3>
+                  Get in touch today to see how Browzly can impact phonics
+                  outcomes in your school.
+                </h3>
+                <a href="/contact" className="cta-button">
+                  Contact Us
+                </a>
+              </div>
             </div>
           </div>
 
@@ -63,11 +67,10 @@ const DiscoverSection = () => {
 const FeatureCard = ({ icon, text }) => {
   return (
     <div className="feature-card">
-      <div className="feature-icon">{icon}</div> 
+      <div className="feature-icon">{icon}</div>
       <p>{text}</p>
     </div>
   );
 };
 
 export default DiscoverSection;
-

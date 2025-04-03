@@ -1,0 +1,139 @@
+.phonics-baseline {
+  padding: 50px 0;
+  background-color: rgba(245, 203, 51, 0.172);
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.headline {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Features List Card */
+.features-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.features-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features-card li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.features-card li::before {
+  content: "✅";
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+/* Feature Cards Section */
+.feature-cards {
+  margin-top: 20px;
+}
+
+.combined-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.combined-card .card-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Call to Action */
+.cta-section {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background: #0056b3;
+}
+
+/* Right-side Images */
+.image-container {
+  text-align: center;
+  position: relative;
+  right: -20px; /* Move image slightly right */
+}
+
+.baseline-image {
+  max-width: 90%; /* Make image slightly smaller */
+  height: auto;
+  max-height: 250px;
+  object-fit: contain;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .headline {
+    font-size: 28px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .features-card {
+    padding: 15px;
+  }
+
+  .image-container {
+    margin-top: 20px;
+    right: 0; /* Reset for mobile */
+  }
+
+  .baseline-image {
+    max-height: 200px;
+  }
+}

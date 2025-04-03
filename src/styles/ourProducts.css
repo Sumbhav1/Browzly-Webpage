@@ -1,0 +1,102 @@
+.products-and-services {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.headline {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+  text-align: left; /* Ensure left alignment */
+}
+
+.features-list {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.features-list li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Merging the Feature Cards into One */
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.combined-card {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.combined-card .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.paw-sign-image {
+  max-width: 20%; /* Reduce size */
+  height: auto;
+  opacity: 0.5; /* Make it more visible */
+  position: absolute;
+  right: 5%; /* Adjust placement */
+  top: 65%; /* Move it further down */
+  transform: translateY(-50%);
+  z-index: 0; /* Ensure it's above the background */
+  mix-blend-mode: overlay; /* Adjust blending */
+  pointer-events: none;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .headline {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .combined-card {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  /* Center the image on mobile */
+  .paw-sign-image {
+    max-width: 40%;
+    opacity: 0.3; /* Less opacity on mobile */
+    position: relative;
+    margin: 20px auto;
+    display: block;
+  }
+}
+

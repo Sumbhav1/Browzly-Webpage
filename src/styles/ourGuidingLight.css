@@ -1,7 +1,7 @@
 .our-guiding-light {
     padding: 60px 0;
-    background-color: #f9f9f9;
-    margin-top: -60px;
+    background-color: rgba(245, 203, 51, 0.172); /* Light yellow with transparency */
+
 }
 
 .our-guiding-light .headline {
@@ -29,8 +29,7 @@
     background: #f8f9fa;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    margin-left: auto; /* Push to the right */
-    margin-top: 100px;
+    margin-top: 50px;
   }
   
 
@@ -78,6 +77,30 @@
 
     .goals-list li {
         font-size: 16px;
+    }
+}
+
+.bsme {
+    max-width: 300px; /* Medium size */
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    /*position: relative; /* Keeps it in normal flow */
+    bottom: -50px;
+}
+
+.childwithheadphones {
+    max-width: 300px; /* Adjust size */
+    /*position: absolute; /* Freely place it near the bsme */
+    right: 200px; /* Move it slightly right */
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .bsme {
+        max-width: 150px; /* Smaller size for mobile */
+        margin: 20px auto;
     }
 }
 
