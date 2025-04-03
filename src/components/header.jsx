@@ -4,7 +4,7 @@ import "../styles/navbar.css";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
       <div className="container-fluid d-flex justify-content-between align-items-center">
         
         {/* Left-aligned Logo */}
@@ -53,7 +53,7 @@ const Header = () => {
 
             {/* Talk to Us Button */}
             <li className="nav-item">
-              <button className="btn btn-warning rounded-3 px-3">Talk to us</button>
+              <button className="btn btn-warning rounded-5 px-3">Talk to us</button>
             </li>
           </ul>
         </div>

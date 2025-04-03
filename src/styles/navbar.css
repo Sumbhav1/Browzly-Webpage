@@ -1,4 +1,17 @@
-/* Default logo size */
+body {
+  padding-top: 80px; /* Adjust based on navbar height */
+}
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+  z-index: 1050; /* Higher z-index ensures it stays above other elements */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+}
+
 .logo {
     height: 45px; /* Set a default height */
     width: auto; /* Maintain aspect ratio */
@@ -23,5 +36,15 @@
       height: 15px;
     }
   }
+.talk-to-us{
+    color: #FFDE00;
+}
+
+
+/* Add padding to the body to prevent content from being hidden under the navbar */
+body {
+  padding-top: 1px; /* Adjust based on your navbar height */
+}
+
   
   
