@@ -6,6 +6,7 @@ import ProductsAndServices from "../components/ProductsAndServices";
 import PhonicsBaseline from "../components/PhonicsBaseline";
 import PhonicsBearParent from "../components/PhonicBearParent";
 import PressSection from "../components/PressSection";
+import Footer from "../components/Footer";
 function HomePage() {
   return (
     <div>
@@ -16,7 +17,8 @@ function HomePage() {
       <PhonicsBaseline />
       <PhonicsBearParent />
       <PressSection />
-      
+      <Footer />
+
       {/* Add other sections here later */}
     </div>
   );
